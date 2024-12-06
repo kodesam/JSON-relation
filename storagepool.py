@@ -17,6 +17,6 @@ dot.edge('StoragePoolV5_1', 'DeviceAttributes1', label='has')
 dot.edge('StoragePoolV5_2', 'DeviceAttributes2', label='has')
 
 # Render the diagram
-dot.render('/mnt/data/storage_pool_structure', format='png', cleanup=False)
+dot.render('/workspaces/JSON-relation/file', format='png', cleanup=False)
 
 print("Diagram generated and saved as storage_pool_structure.png")

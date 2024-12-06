@@ -1,0 +1,20 @@
+{
+  "manufacturers": [
+    {
+      "name": "Test Manufacturer 0",
+      "description": "TEST Enterprise 0",
+      "slug": "test1"
+    },
+    {
+      "name": "Test Manufacturer 2",
+      "description": "TEST Enterprise 2",
+      "slug": "test2"
+    },
+    {
+      "name": "Test Manufacturer 3",
+      "description": "TEST Enterprise 3",
+      "slug": "test3"
+    }
+  ]
+}
+

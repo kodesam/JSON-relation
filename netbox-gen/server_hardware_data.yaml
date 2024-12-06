@@ -1,0 +1,250 @@
+type: server-hardware-list-12
+category: server-hardware
+count: 1
+created: '2024-11-18T23:31:56.819Z'
+eTag: '1731972716819'
+members:
+  - type: server-hardware-12
+    name: NLHEN06ST3RM060.test.nfv.local
+    serverName: ''
+    state: ProfileApplied
+    stateReason: NotApplicable
+    assetTag: ''
+    capabilities:
+      - RackEdgeConnections
+    category: server-hardware
+    created: '2024-01-25T14:24:54.594Z'
+    description: null
+    eTag: '1731866373651'
+    formFactor: 1U
+    generation: Gen10
+    hostOsType: 0
+    imlMode: Enabled
+    intelligentProvisioningVersion: 3.88.6
+    licensingIntent: OneViewNoiLO
+    locationUri: null
+    maintenanceMode: false
+    memoryMb: 393216
+    migrationState: NotMigrated
+    model: ProLiant DL360 Gen10
+    modified: '2024-11-17T17:59:33.651Z'
+    mpFirmwareVersion: 3.04 Apr 17 2024
+    mpHostInfo:
+      mpHostName: NLHEN06ST3RM060.test.nfv.local
+      mpIpAddresses:
+        - address: 10.59.95.62
+          type: Static
+        - address: 'fe80:0:0:0:5eed:8cff:feae:c280'
+          type: LinkLocal
+    mpLicenseType: iLO Advanced
+    mpModel: iLO5
+    mpState: OK
+    oneTimeBoot: Hdd
+    operatingSystem: Unknown
+    partNumber: P21399-B21
+    physicalServerHardwareUri: null
+    platform: RackServer
+    portMap:
+      deviceSlots:
+        - deviceName: HPE Eth 10/25Gb 2p 640FLR-SFP28 Adptr
+          deviceNumber: 4
+          location: Flr
+          physicalPorts:
+            - interconnectPort: 0
+              interconnectUri: null
+              mac: '88:E9:A4:B9:C8:B4'
+              nodeGuid: null
+              permanentNodeGuid: null
+              physicalInterconnectPort: 0
+              physicalInterconnectUri: null
+              portNumber: 1
+              type: Ethernet
+              virtualPorts: []
+              wwn: null
+            - interconnectPort: 0
+              interconnectUri: null
+              mac: '88:E9:A4:B9:C8:B5'
+              nodeGuid: null
+              permanentNodeGuid: null
+              physicalInterconnectPort: 0
+              physicalInterconnectUri: null
+              portNumber: 2
+              type: Ethernet
+              virtualPorts: []
+              wwn: null
+          slotNumber: 1
+        - deviceName: HPE SN1100Q 16Gb 2p FC HBA
+          deviceNumber: 1
+          location: Pci
+          physicalPorts: []
+          slotNumber: 2
+        - deviceName: Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter
+          deviceNumber: 2
+          location: Pci
+          physicalPorts:
+            - interconnectPort: 0
+              interconnectUri: null
+              mac: '88:E9:A4:B2:02:EC'
+              nodeGuid: null
+              permanentNodeGuid: null
+              physicalInterconnectPort: 0
+              physicalInterconnectUri: null
+              portNumber: 1
+              type: Ethernet
+              virtualPorts: []
+              wwn: null
+            - interconnectPort: 0
+              interconnectUri: null
+              mac: '88:E9:A4:B2:02:ED'
+              nodeGuid: null
+              permanentNodeGuid: null
+              physicalInterconnectPort: 0
+              physicalInterconnectUri: null
+              portNumber: 2
+              type: Ethernet
+              virtualPorts: []
+              wwn: null
+          slotNumber: 3
+        - deviceName: Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter
+          deviceNumber: 3
+          location: Pci
+          physicalPorts: []
+          slotNumber: 3
+        - deviceName: Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter
+          deviceNumber: 5
+          location: Pci
+          physicalPorts: []
+          slotNumber: 1
+        - deviceName: Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter
+          deviceNumber: 6
+          location: Pci
+          physicalPorts:
+            - interconnectPort: 0
+              interconnectUri: null
+              mac: '88:E9:A4:B2:02:F0'
+              nodeGuid: null
+              permanentNodeGuid: null
+              physicalInterconnectPort: 0
+              physicalInterconnectUri: null
+              portNumber: 1
+              type: Ethernet
+              virtualPorts: []
+              wwn: null
+            - interconnectPort: 0
+              interconnectUri: null
+              mac: '88:E9:A4:B2:02:F1'
+              nodeGuid: null
+              permanentNodeGuid: null
+              physicalInterconnectPort: 0
+              physicalInterconnectUri: null
+              portNumber: 2
+              type: Ethernet
+              virtualPorts: []
+              wwn: null
+          slotNumber: 1
+    position: 0
+    powerLock: false
+    powerState: 'On'
+    processorCoreCount: 26
+    processorCount: 2
+    processorSpeedMhz: 2100
+    processorType: Intel(R) Xeon(R) Gold 6230R CPU @ 2.10GHz
+    refreshState: NotRefreshing
+    remoteSupportSettings:
+      remoteSupportCurrentState: Registered
+      destination: nlhrl1svf01-rs1.test.nfv.local
+    remoteSupportUri: /rest/support/server-hardware/33313250-3939-5A43-3233-34393037374B
+    romVersion: U32 v3.10 (02/22/2024)
+    scopesUri: >-
+      /rest/scopes/resources/rest/server-hardware/33313250-3939-5A43-3233-34393037374B
+    serialNumber: CZ2349077K
+    serverFirmwareInventoryUri: /rest/server-hardware/33313250-3939-5A43-3233-34393037374B/firmware
+    serverGroupUri: null
+    serverHardwareTypeUri: /rest/server-hardware-types/0F7580A6-36EB-44A0-BF12-0747EF367F17
+    serverProfileUri: /rest/server-profiles/89c6bfa6-2e67-4138-a076-97f3b22648be
+    serverSettings:
+      firmwareAndDriversInstallState:
+        installedStateTimestamp: '2024-08-05T12:32:16Z'
+        installState: Activated
+      hpSmartUpdateToolStatus:
+        mode: AutoStage
+        version: 5.0.0.0
+        serviceState: Disabled
+        installState: Installed
+        lastOperationTime: '2024-08-05T11:01:03Z'
+      firmwareInstallSchedule:
+        dateTime: null
+        scheduleOptions: StageImmediatelyAndRetryAtDeployTime
+    shortModel: DL360 Gen10
+    signature: null
+    status: Warning
+    subResources:
+      MemoryList:
+        uri: /rest/server-hardware/33313250-3939-5A43-3233-34393037374B/memoryList
+        collectionState: Collected
+        modified: '2024-11-15T00:10:02.117Z'
+        data: null
+        etag: 71E740A0
+        count: 2
+        name: MemoryList
+      Memory:
+        uri: /rest/server-hardware/33313250-3939-5A43-3233-34393037374B/memory
+        collectionState: Collected
+        modified: '2024-11-15T00:10:02.117Z'
+        data: null
+        etag: D4E7741B
+        count: 24
+        name: Memory
+      Devices:
+        uri: /rest/server-hardware/33313250-3939-5A43-3233-34393037374B/devices
+        collectionState: Collected
+        modified: '2024-11-15T00:26:30.393Z'
+        data: null
+        etag: 4A7C83A4
+        count: 6
+        name: Devices
+      AdvancedMemoryProtection:
+        uri: >-
+          /rest/server-hardware/33313250-3939-5A43-3233-34393037374B/advancedMemoryProtection
+        collectionState: Collected
+        modified: '2024-11-15T00:10:02.117Z'
+        data: null
+        etag: 58B82680
+        count: 1
+        name: AdvancedMemoryProtection
+      LocalStorage:
+        uri: >-
+          /rest/server-hardware/33313250-3939-5A43-3233-34393037374B/localStorage
+        collectionState: Collected
+        modified: '2024-11-17T17:59:33.644Z'
+        data: null
+        etag: B9293A90
+        count: 1
+        name: LocalStorage
+      LocalStorageV2:
+        uri: >-
+          /rest/server-hardware/33313250-3939-5A43-3233-34393037374B/localStorageV2
+        collectionState: Collected
+        modified: '2024-11-15T00:10:02.118Z'
+        data: null
+        etag: 95102BDE
+        count: 1
+        name: LocalStorageV2
+    supportDataCollectionState: null
+    supportDataCollectionType: null
+    supportDataCollectionsUri: >-
+      /rest/support/data-collections?deviceID=33313250-3939-5A43-3233-34393037374B&category=server-hardware
+    supportState: NotSupported
+    supportTestEventState: null
+    uidState: 'Off'
+    uri: /rest/server-hardware/33313250-3939-5A43-3233-34393037374B
+    uuid: 33313250-3939-5A43-3233-34393037374B
+    virtualSerialNumber: null
+    virtualUuid: null
+modified: '2024-11-18T23:31:56.819Z'
+nextPageUri: null
+prevPageUri: null
+start: 0
+total: 1
+uri: >-
+  /rest/server-hardware?filter=name%3D%27nlhen06st3rm060.test.nfv.local%27&start=0&count=32

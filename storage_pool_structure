@@ -1,0 +1,28 @@
+// Storage Pool JSON Structure
+digraph {
+	StoragePoolListV5 [label="StoragePoolListV5
+(category: storage-pools)
+(uri: /rest/storage-pools)"]
+	StoragePoolV5_1 [label="StoragePoolV5
+(name: CPG001_R6_SSD)
+(storageSystemUri: CZ29410720)
+(totalCapacity: 58.5TB)"]
+	StoragePoolV5_2 [label="StoragePoolV5
+(name: CPG001_R6_SSD)
+(storageSystemUri: CZ2941071Z)
+(totalCapacity: 38.5TB)"]
+	DeviceAttributes1 [label="DeviceSpecificAttributes
+(uuid: da809657-1c12-45b9-8051-6a9b454f6e19)
+(domain: VD1-VMWARE-HRL1-3P2)
+(type: SSD)
+(RAID: RAID6)"]
+	DeviceAttributes2 [label="DeviceSpecificAttributes
+(uuid: a52583f5-33de-4066-bb1c-703b0a8ed716)
+(domain: VD1-VMWARE-HRL1-3P2)
+(type: SSD)
+(RAID: RAID6)"]
+	StoragePoolListV5 -> StoragePoolV5_1 [label=contains]
+	StoragePoolListV5 -> StoragePoolV5_2 [label=contains]
+	StoragePoolV5_1 -> DeviceAttributes1 [label=has]
+	StoragePoolV5_2 -> DeviceAttributes2 [label=has]
+}

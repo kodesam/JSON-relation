@@ -1,0 +1,147 @@
+---
+type: server-hardware-list-12
+category: server-hardware
+count: 1
+created: "2024-11-18T23:31:56.819Z"
+eTag: "1731972716819"
+members:
+
+  - type: server-hardware-12
+    name: NLHEN06ST3RM060.test.nfv.local
+    serverName: ""
+    state: ProfileApplied
+    stateReason: NotApplicable
+    assetTag: ""
+    capabilities:
+      
+      - RackEdgeConnections
+      
+    category: server-hardware
+    created: "2024-01-25T14:24:54.594Z"
+    description: None
+    eTag: "1731866373651"
+    formFactor: 1U
+    generation: Gen10
+    hostOsType: 0
+    imlMode: Enabled
+    intelligentProvisioningVersion: 3.88.6
+    licensingIntent: OneViewNoiLO
+    locationUri: "None"
+    maintenanceMode: False
+    memoryMb: 393216
+    migrationState: NotMigrated
+    model: ProLiant DL360 Gen10
+    modified: "2024-11-17T17:59:33.651Z"
+    mpFirmwareVersion: 3.04 Apr 17 2024
+    mpHostInfo:
+      mpHostName: NLHEN06ST3RM060.test.nfv.local
+      mpIpAddresses:
+        
+        - address: 10.59.95.62
+          type: Static
+        
+        - address: fe80:0:0:0:5eed:8cff:feae:c280
+          type: LinkLocal
+        
+    mpLicenseType: iLO Advanced
+    mpModel: iLO5
+    mpState: OK
+    oneTimeBoot: Hdd
+    operatingSystem: Unknown
+    partNumber: P21399-B21
+    physicalServerHardwareUri: "None"
+    platform: RackServer
+    portMap:
+      deviceSlots:
+        
+        - deviceName: HPE Eth 10/25Gb 2p 640FLR-SFP28 Adptr
+          deviceNumber: 4
+          location: Flr
+          physicalPorts:
+            
+            - interconnectPort: 0
+              mac: 88:E9:A4:B9:C8:B4
+              portNumber: 1
+              type: Ethernet
+            
+            - interconnectPort: 0
+              mac: 88:E9:A4:B9:C8:B5
+              portNumber: 2
+              type: Ethernet
+            
+          slotNumber: 1
+        
+        - deviceName: HPE SN1100Q 16Gb 2p FC HBA
+          deviceNumber: 1
+          location: Pci
+          physicalPorts:
+            
+          slotNumber: 2
+        
+        - deviceName: Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter
+          deviceNumber: 2
+          location: Pci
+          physicalPorts:
+            
+            - interconnectPort: 0
+              mac: 88:E9:A4:B2:02:EC
+              portNumber: 1
+              type: Ethernet
+            
+            - interconnectPort: 0
+              mac: 88:E9:A4:B2:02:ED
+              portNumber: 2
+              type: Ethernet
+            
+          slotNumber: 3
+        
+        - deviceName: Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter
+          deviceNumber: 3
+          location: Pci
+          physicalPorts:
+            
+          slotNumber: 3
+        
+        - deviceName: Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter
+          deviceNumber: 5
+          location: Pci
+          physicalPorts:
+            
+          slotNumber: 1
+        
+        - deviceName: Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter
+          deviceNumber: 6
+          location: Pci
+          physicalPorts:
+            
+            - interconnectPort: 0
+              mac: 88:E9:A4:B2:02:F0
+              portNumber: 1
+              type: Ethernet
+            
+            - interconnectPort: 0
+              mac: 88:E9:A4:B2:02:F1
+              portNumber: 2
+              type: Ethernet
+            
+          slotNumber: 1
+        
+    powerState: On
+    processorCoreCount: 26
+    processorCount: 2
+    processorSpeedMhz: 2100
+    processorType: Intel(R) Xeon(R) Gold 6230R CPU @ 2.10GHz
+    refreshState: NotRefreshing
+    romVersion: U32 v3.10 (02/22/2024)
+    serialNumber: CZ2349077K
+    shortModel: DL360 Gen10
+    status: Warning
+    uidState: Off
+    uri: /rest/server-hardware/33313250-3939-5A43-3233-34393037374B
+
+modified: "2024-11-18T23:31:56.819Z"
+nextPageUri: "None"
+prevPageUri: "None"
+start: 0
+total: 1
+uri: "/rest/server-hardware?filter=name%3D%27nlhen06st3rm060.test.nfv.local%27&start=0&count=32"

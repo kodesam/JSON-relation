@@ -1,0 +1,84 @@
+---
+type: {{ data.type }}
+category: {{ data.category }}
+count: {{ data.count }}
+created: "{{ data.created }}"
+eTag: "{{ data.eTag }}"
+members:
+{% for member in data.members %}
+  - type: {{ member.type }}
+    name: {{ member.name }}
+    serverName: "{{ member.serverName }}"
+    state: {{ member.state }}
+    stateReason: {{ member.stateReason }}
+    assetTag: "{{ member.assetTag }}"
+    capabilities:
+      {% for capability in member.capabilities %}
+      - {{ capability }}
+      {% endfor %}
+    category: {{ member.category }}
+    created: "{{ member.created }}"
+    description: {{ member.description }}
+    eTag: "{{ member.eTag }}"
+    formFactor: {{ member.formFactor }}
+    generation: {{ member.generation }}
+    hostOsType: {{ member.hostOsType }}
+    imlMode: {{ member.imlMode }}
+    intelligentProvisioningVersion: {{ member.intelligentProvisioningVersion }}
+    licensingIntent: {{ member.licensingIntent }}
+    locationUri: "{{ member.locationUri }}"
+    maintenanceMode: {{ member.maintenanceMode }}
+    memoryMb: {{ member.memoryMb }}
+    migrationState: {{ member.migrationState }}
+    model: {{ member.model }}
+    modified: "{{ member.modified }}"
+    mpFirmwareVersion: {{ member.mpFirmwareVersion }}
+    mpHostInfo:
+      mpHostName: {{ member.mpHostInfo.mpHostName }}
+      mpIpAddresses:
+        {% for ip in member.mpHostInfo.mpIpAddresses %}
+        - address: {{ ip.address }}
+          type: {{ ip.type }}
+        {% endfor %}
+    mpLicenseType: {{ member.mpLicenseType }}
+    mpModel: {{ member.mpModel }}
+    mpState: {{ member.mpState }}
+    oneTimeBoot: {{ member.oneTimeBoot }}
+    operatingSystem: {{ member.operatingSystem }}
+    partNumber: {{ member.partNumber }}
+    physicalServerHardwareUri: "{{ member.physicalServerHardwareUri }}"
+    platform: {{ member.platform }}
+    portMap:
+      deviceSlots:
+        {% for slot in member.portMap.deviceSlots %}
+        - deviceName: {{ slot.deviceName }}
+          deviceNumber: {{ slot.deviceNumber }}
+          location: {{ slot.location }}
+          physicalPorts:
+            {% for port in slot.physicalPorts %}
+            - interconnectPort: {{ port.interconnectPort }}
+              mac: {{ port.mac }}
+              portNumber: {{ port.portNumber }}
+              type: {{ port.type }}
+            {% endfor %}
+          slotNumber: {{ slot.slotNumber }}
+        {% endfor %}
+    powerState: {{ member.powerState }}
+    processorCoreCount: {{ member.processorCoreCount }}
+    processorCount: {{ member.processorCount }}
+    processorSpeedMhz: {{ member.processorSpeedMhz }}
+    processorType: {{ member.processorType }}
+    refreshState: {{ member.refreshState }}
+    romVersion: {{ member.romVersion }}
+    serialNumber: {{ member.serialNumber }}
+    shortModel: {{ member.shortModel }}
+    status: {{ member.status }}
+    uidState: {{ member.uidState }}
+    uri: {{ member.uri }}
+{% endfor %}
+modified: "{{ data.modified }}"
+nextPageUri: "{{ data.nextPageUri }}"
+prevPageUri: "{{ data.prevPageUri }}"
+start: {{ data.start }}
+total: {{ data.total }}
+uri: "{{ data.uri }}"
